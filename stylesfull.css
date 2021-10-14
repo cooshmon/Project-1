@@ -1,0 +1,111 @@
+#calendermonthfull {
+  width: 178px;
+  height: 100px;
+  position: relative;
+  padding: 0;
+}
+#fullcalender {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+.gridmonthfull {
+  align-content: center;
+  height: 2vh;
+  max-width: 14vw;
+}
+#week1full {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 7px 1fr;
+  border: 1px;
+}
+
+#week2full {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 7px 1fr;
+  border: 1px;
+}
+#week3full {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 7px 1fr;
+  border: 1px;
+}
+#week4full {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 7px 1fr;
+  border: 1px;
+}
+
+div[id^="weekfull"] {
+  border: 1px;
+  height: 17px;
+  max-width: 200px;
+  min-width: 167px;
+  margin: 0;
+}
+div[id^="weekfull"]:hover {
+  background-color: rgba(0, 255, 0, 0.671);
+}
+.dayfull {
+  display: inline-block;
+  border: 1px solid;
+  grid-column: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 17px;
+  width: 17px;
+  font-family: Helvetica, sans-serif;
+  font-size: 6px;
+  color: rgb(37, 39, 37);
+  margin: 0;
+  padding: 0;
+}
+.dayfull:hover {
+  border: 1px rgb(37, 39, 37) solid;
+  transform: scale(1.3);
+  background-color: rgb(255, 255, 0);
+  transform: scale(1.1);
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+div {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(37, 39, 37);
+}
+h1 {
+  grid-row: 1;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0 0 0 0;
+  color: rgb(37, 39, 37);
+  margin: 0;
+}
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  color: rgb(37, 39, 37);
+}
+
+p:hover {
+  color: yellow;
+}
+
+a {
+  grid-row: 1;
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 0 0 0 0;
+  color: rgb(37, 39, 37);
+  text-decoration: none;
+}

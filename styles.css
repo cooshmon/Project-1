@@ -244,6 +244,34 @@ iframe {
   display: block;
   animation: big 1.255s;
 }
+#calanimation {
+  z-index: 5;
+  transition-duration: 0.25s;
+  transition-timing-function: ease;
+  display: block;
+
+  animation: second 1.255s;
+}
+@keyframes second {
+  0% {
+    font-size: 140px;
+    grid-column: 2 / span 7;
+  }
+  79% {
+    font-size: 140px;
+    grid-column: 2 / span 7;
+  }
+  99% {
+    font-size: 140px;
+    grid-column: 2 / span 7;
+    color: rgb(37, 39, 37);
+  }
+  100% {
+    font-size: 0px;
+    grid-column: 2 / span 7;
+    color: transparent;
+  }
+}
 @keyframes big {
   0% {
     font-size: 140px;
@@ -254,8 +282,7 @@ iframe {
     grid-column: 1 / span 7;
   }
   100% {
-    font-size: 60px;
-    grid-column: 1 / span 7;
+    font-size: 0px;
   }
 }
 h2 {

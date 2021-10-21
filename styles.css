@@ -110,7 +110,7 @@ div[id^="individual"] {
   width: 1200px;
 }
 div[id^="individual"]:hover {
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
 }
 .day {
   display: inline-block;
@@ -368,7 +368,7 @@ div[id^="janweek"]:hover {
 .dayjan:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 120px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 
@@ -399,7 +399,7 @@ div[id^="febweek"]:hover {
 .dayfeb:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #febweek1 {
@@ -459,7 +459,7 @@ div[id^="marweek"]:hover {
 .daymar:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #marweek1 {
@@ -519,7 +519,7 @@ div[id^="aprweek"]:hover {
 .dayapr:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #aprweek1 {
@@ -579,7 +579,7 @@ div[id^="mayweek"]:hover {
 .daymay:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #mayweek1 {
@@ -639,7 +639,7 @@ div[id^="junweek"]:hover {
 .dayjun:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #junweek1 {
@@ -699,7 +699,7 @@ div[id^="julweek"]:hover {
 .dayjul:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #julweek1 {
@@ -759,7 +759,7 @@ div[id^="augweek"]:hover {
 .dayaug:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #augweek1 {
@@ -819,7 +819,7 @@ div[id^="septweek"]:hover {
 .daysept:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #septweek1 {
@@ -915,7 +915,7 @@ div[id^="octweek"]:hover {
 .dayoct:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 105px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 div[id^="novweek"] {
@@ -945,7 +945,7 @@ div[id^="novweek"]:hover {
 .daynov:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 
@@ -1006,7 +1006,7 @@ div[id^="decweek"]:hover {
 .daydec:hover {
   border: 1px rgb(37, 39, 37) solid;
   height: 125px;
-  background-color: rgba(0, 255, 0, 0.671);
+  background-color: rgba(0, 255, 0);
   transform: scale(1.1);
 }
 #decweek1 {
